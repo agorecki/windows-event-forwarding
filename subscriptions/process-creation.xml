@@ -1,0 +1,137 @@
+<QueryList>
+  <Query Id="0" Path="Security">
+    <Select Path="Security">*[System[(EventID=4688)]]</Select>
+    <Select Path="Security">*[System[(EventID=4689)]]</Select>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat 11.0\Acrobat\Acrobat.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AdobeGCClient.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Internet Explorer\iexplore.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\explorer.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Lenovo\Customer Feedback Program\Lenovo.TVT.CustomerFeedback.Agent.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Microsoft Office\Office16\lync.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\splwow64.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\System32\PrintIsolationHost.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\System32\conhost.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\CompatTelRunner.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\audiodg.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\conhost.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\musNotification.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\musNotificationUx.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\powercfg.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\sndVol.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\sppsvc.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\wbem\WmiApSrv.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\System32\plasrv.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\System32\wifitask.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\microsoft shared\ink\TabTip32.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\System32\TokenBrokerCookies.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\mobsync.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\SppExtComObj.Exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\PrintIsolationHost.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\system32\MpSigStub.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Microsoft Office\Office16\MSOSYNC.EXE']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Microsoft Office\Office16\MSOSYNC.EXE']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Microsoft Office\Office15\MSOSYNC.EXE']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Common Files\Microsoft Shared\OfficeSoftwareProtectionPlatform\OSPPSVC.EXE']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Microsoft Office\Office16\msoia.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Windows Media Player\wmpnscfg.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\AcroCEF\AcroCEF.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\LogTransport2.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\AcroCEF\AcroCEF.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\LogTransport2.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\LogTransport2.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Windows\SysWOW64\Macromed\Flash\FlashPlayerUpdateService.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\AdobeCollabSync.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\HEX\Adobe CEF Helper.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AdobeGCClient.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\P6\adobe_licutil.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\P7\adobe_licutil.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\updaterstartuputility.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Adobe\Adobe Creative Cloud\ACC\Creative Cloud.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\ObserveIT\ObserveITAgent\bin\rcdcl.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Dell\SupportAssist\pcdrcui.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='NewProcessName']='C:\Program Files\Dell\SupportAssist\koala.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\SearchIndexer.exe /Embedding']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\windows\system32\wermgr.exe -queuereporting']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\system32\wermgr.exe -upload']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='\SystemRoot\System32\smss.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='\??\C:\WINDOWS\system32\autochk.exe']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k appmodel -s StateRepository']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k appmodel']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\system32\svchost.exe -k appmodel -p -s tiledatamodelsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k camera -s FrameServer']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k dcomlaunch -s LSM']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k dcomlaunch -s PlugPlay']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k defragsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k devicesflow -s DevicesFlowUserSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k imgsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localService -s EventSystem']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localService -s bthserv']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localService -s nsi']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localService -s w32Time']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceAndNoImpersonation']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted -s Dhcp']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted -s EventLog']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted -s TimeBrokerSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted -s WFDSConMgrSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceAndNoImpersonation -s SensrSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localServiceNoNetwork']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -p -s WPDBusEnum']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -p -s fhsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s DeviceAssociationService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s NcbService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s SensorService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s TabletInputService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s UmRdpService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s WPDBusEnum']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s WdiSystemHost']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -p -s ncaSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s BDESVC']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s BITS']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s CertPropSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s DsmSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s Gpsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s ProfSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s SENS']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s SessionEnv']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s Themes']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs -s Winmgmt']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k netsvcs']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService -p -s DoSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService -s Dnscache']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService -s LanmanWorkstation']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService -s NlaSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService -s TermService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkService']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k networkServiceNetworkRestricted']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k rPCSS']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k secsvcs']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k swprv']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k unistackSvcGroup']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k utcsvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k wbioSvcGroup']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k werSvcGroup']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\System32\svchost.exe -k wsappx -p -s ClipSVC']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\WINDOWS\system32\svchost.exe -k wsappx -p -s AppXSvc']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k wsappx -s ClipSVC']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\svchost.exe -k wsappx']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\igfxsrvc.exe -Embedding']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='"C:\Windows\System32\regsvr32.exe" /s /n /i:U shell32.dll']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\wbem\wmiprvse.exe -Embedding']]</Suppress>
+    <Suppress Path="Security">*[EventData[Data[@Name='CommandLine']='C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding']]</Suppress>
+  </Query>
+</QueryList>
